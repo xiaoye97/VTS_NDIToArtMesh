@@ -96,10 +96,10 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 
 ![图示](ReadmeAssets/ScreenTextureSetting.jpg)
 
-我准备了一个预先做好的纯白方形图片，可以直接使用此图片。
-![图示](Square2048.png)
+我准备了一个预先做好的纯白方形图片`Square2048.png`，可以直接下载使用此图片。
 
 屏幕的布点，不应该是点围绕着屏幕，点应该紧贴着屏幕边缘，如果点超出了屏幕边缘，在VTS中你会看到超出的部分都会被同一颜色填充。
+
 ![图示](ReadmeAssets/ScreenMeshEdit.jpg)
 
 ## 反馈

@@ -102,6 +102,11 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 
 ![图示](ReadmeAssets/ScreenMeshEdit.jpg)
 
+## 除了显示屏幕，还可以用来做什么的吗
+只要是可以传输NDI的画面都可以传入VTS，发挥你的想象。
+
+比如在模型中显示观众的弹幕，显示歌词，显示摄像头画面，或者是将AE特效之类的显示到衣服上等等！
+
 ## 反馈
 如果你有更好的NDI工具，可以告诉我，我对直播工具了解的并不算多。
 

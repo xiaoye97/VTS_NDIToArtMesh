@@ -7,6 +7,7 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 ![图示](ReadmeAssets/NDIToArtMeshPreview.gif)
 
 ## 如何安装和使用
+视频教程 [bilibili][6]
 ### ①
 如果你已经安装了VTS_XYPlugin`2.4.0`以上版本，则跳转到③，如果你安装了VTS_XYPlugin但是版本不到2.4.0，则必须先更新再跳转到③，如果你不希望安装VTS_XYPlugin，则直接看②
 
@@ -118,3 +119,4 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 [3]: https://ndi.tv/tools/#download-tools
 [4]: https://obsproject.com/
 [5]: https://github.com/Palakis/obs-ndi/releases
+[6]: https://www.bilibili.com/video/BV1HG4y1Q75N

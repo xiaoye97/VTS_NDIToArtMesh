@@ -3,6 +3,8 @@
 
 A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 
+[EnglishReadme][7]
+
 ## 预览
 ![图示](ReadmeAssets/NDIToArtMeshPreview.gif)
 
@@ -90,8 +92,10 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 
 对于第二个OBS，我们单独采集需要的画面并开启NDI。
 
+由于只能同时捕获一个游戏源，因此对于两边都需要画面的情况。可以在第二个OBS捕获游戏源，之后通过NDI将其发送到第一个OBS，而不是以其他方式绕过。
+
 ## 对于Live2D模型师，应该如何正确制作一个屏幕
-为了完整的显示NDI画面，屏幕的图片应该单独存放在一个图集中。
+为了完整的显示NDI画面，用于制作屏幕的图片应该单独存放在一个图集中。
 
 屏幕的图片应该是正方形的，不应该是画师根据透视画出来的形状，形状应该在Live2D Cubism Editor中进行变形。
 
@@ -120,3 +124,4 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 [4]: https://obsproject.com/
 [5]: https://github.com/Palakis/obs-ndi/releases
 [6]: https://www.bilibili.com/video/BV1HG4y1Q75N
+[7]: README_EN.md

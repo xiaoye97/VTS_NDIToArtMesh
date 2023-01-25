@@ -21,7 +21,7 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 
 将下面的代码复制到配置文件中，根据你的需求修改参数并保存。
 
-```
+```json
 {
   "NDIName": "XYMAINPC (NVIDIA GeForce RTX 4090 1)",
   "HorizontalFlip": true,
@@ -40,7 +40,7 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 
 `ArtMeshNames` 是目标ArtMesh的名字列表。如果你需要将画面渲染到多个ArtMesh上，例如你想做屏幕在眼睛中的反光，你可以按照如下格式填写。
 
-```
+```json
 {
   "NDIName": "XYMAINPC (NVIDIA GeForce RTX 4090 1)",
   "HorizontalFlip": true,
@@ -48,7 +48,7 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
   "ArtMeshNames": [
     "Square2048",
     "ArtMesh1",
-    "ArtMesh2
+    "ArtMesh2"
   ]
 }
 ```

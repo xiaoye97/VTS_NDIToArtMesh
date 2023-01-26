@@ -13,7 +13,7 @@ namespace VTS_NDIToArtMesh
     {
         public const string GUID = "me.xiaoye97.plugin.VTubeStudio.NDIToArtMesh";
         public const string PluginName = "NDIToArtMesh";
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.1.0";
 
         private void Start()
         {

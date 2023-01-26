@@ -4,11 +4,13 @@ using UnityEngine;
 using Klak.Ndi.Interop;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using HarmonyLib;
 
 namespace VTS_NDIToArtMesh
 {
     public sealed class XYNdiReceiver : MonoBehaviour
     {
+        private static NdiResources ndiResources;
         public bool HFlip, VFlip;
 
         private void PrepareReceiverObjects()
@@ -227,6 +229,17 @@ namespace VTS_NDIToArtMesh
         private void Awake()
         {
             this.ndiName = this._ndiName;
+            FindNdiResource();
+            SetResources(ndiResources);
+        }
+
+        public void FindNdiResource()
+        {
+            if (ndiResources == null)
+            {
+                var ndiSender = GameObject.Find("Live2D Camera").GetComponent<NdiSender>();
+                ndiResources = Traverse.Create(ndiSender).Field("_resources").GetValue<NdiResources>();
+            }
         }
 
         private Recv _recv;

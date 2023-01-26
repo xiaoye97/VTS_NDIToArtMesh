@@ -116,6 +116,11 @@ Any picture that can transmit NDI can be transferred to VTS to give full play to
 
 For example, show the audience's bullet screen in the model, show the lyrics, display the camera image, or display the AE special effects on the clothes and so on!
 
+## What is the resource usage of this plug-in for the computer
+According to the test, if one OBS (1080P 60FPS) live broadcast is used, plus four OBS (1080P 60FPS) as NDI transmission, plus one VTS, the total performance of 13700K is about 60%, which is unacceptable huge consumption.
+However, when the test condition becomes one OBS (1080P 60FPS) live broadcast, plus three OBS (640x360 30FPS) as NDI output, plus one VTS, it takes up about 10% of 13700K.
+Because the picture shown on the model does not need to be very high definition, if your computer performance is not strong enough, you can optimize it by reducing the resolution and frame rate of NDI output.
+
 ## Feedback
 If you have better NDI tools, you can tell me that I don't know much about live broadcast tools.
 

@@ -58,6 +58,10 @@ A plug-in for VTubeStudio, transfer NDI data to the ArtMesh of the model.
 ### ⑤
 启动VTS
 
+## 如何让一个模型接收多个不同的NDI源
+如果你的模型上不止有一个区域需要显示内容，只需要将配置文件复制多份，以`模型名.*.NDIToArtMesh.json`的方式命名(*代表任意合法字符)，在每个配置文件中填入不同的NDI名字即可。
+
+
 ## 如何捕获屏幕并发送NDI数据
 你可以使用OBS或NDITools，如果是单纯捕获屏幕，我这里推荐使用NDITools。
 

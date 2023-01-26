@@ -58,6 +58,10 @@ Copy the following code into the configuration file, modify the parameters accor
 ### ⑤
 Start VTS
 
+## How to make a model receive multiple different NDI sources
+If there is more than one area on your model that needs to be displayed， You only need to copy multiple copies of the configuration file， named `ModelName.*.NDIToArtMesh.json`(*Represents any character that conforms to the specification), Fill in different NDI names in each configuration file.
+
+
 ## How to capture screen and send NDI data
 You can use OBS or NDITools. If you want to capture the screen only, I recommend NDITools here.
 
